@@ -25,15 +25,9 @@ def index():
         db.session.add(new_task)
         db.session.commit()
         return redirect('/')
-        
-        '''
-        try:
-            
-        except:
-            return 'There was an error'
-        '''
     else:
-        return render_template('index.html')
+        tasks = Todo.query.order_by(Todo.date_created).all()
+        return render_template('index.html', tasks=tasks)
 
 if __name__ == "__main__":
     app.run(debug=True)
