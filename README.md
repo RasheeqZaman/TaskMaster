@@ -1,6 +1,12 @@
 # TaskMaster
 
-### How To Run
+A simple TODO list making app.
+
+## Built With
+
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/) - The python web framework used
+
+## How To Run
 1. Install `virtualenv`:
 ```
 $ pip install virtualenv
