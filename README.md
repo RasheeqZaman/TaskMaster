@@ -3,7 +3,7 @@
 A simple TODO list making app.
 
 <p align="center">
-  <img src="./img/ss.png" alt="Size Limit CLI" width="738">
+  <img src="./img/ss.png" alt="Task Master Screenshot" width="738">
 </p>
 
 ### Built With
